@@ -11,8 +11,8 @@ on:
       - main
 
 env:
-  REGISTRY: ghcr.io
-  IMAGE_NAME: dockerimage
+  REGISTRY: ghcr.io/meow
+  IMAGE_NAME: node
 
 jobs:
   build-and-push-image:
